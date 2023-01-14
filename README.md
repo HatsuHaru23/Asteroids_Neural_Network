@@ -1,0 +1,1 @@
+Use intro.html and choose the mode you wish 
