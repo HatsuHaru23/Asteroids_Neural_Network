@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Asteroids</title>
+    <style>
+        body{
+            background-image:url('img.jpeg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size:100% 100%;
+            
+        }
+        #hd1{
+                
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                text-align:center;
+                color: white;
+                font-size:80px;
+            }
+        #hd2{
+            
+            text-align: center;
+            font-size: 40px;
+        }
+        #a1{
+            display:grid;
+            height: 100px;
+            width: 350px;
+            position:absolute;
+            place-items: center;
+            margin:auto;
+            left:0;
+            right:450px;
+            top:100px;
+            bottom:0;
+            background:linear-gradient(#6495ed,#6495ed);
+            font-family: "Poppins",sans-serif;
+            text-decoration:none;
+            color:darkblue;
+
+        }
+        #a2{
+            display:grid;
+            height: 100px;
+            width: 350px;
+            position:absolute;
+            place-items: center;
+            margin:auto;
+            left:450px;
+            right:0;
+            top:100px;
+            bottom:0;
+            background:linear-gradient(#6495ed,#6495ed);
+            font-family:"Poppins",sans-serif;
+            text-decoration:none;
+            color:darkblue;
+
+        }
+        #p1{
+            font-family:monospace;
+            color:aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 id="hd1" >Welcome to Asteroids</h1>
+    </header>
+    <h2 id="hd2"><p id="p1">How would you like to play?</p><p><a id="a1" href="Human.html" target="_blank">Human Mode</a></p><p><a id="a2" href="AI.html" target="_blank">AI Mode</a></p></h2>
+</body>
+</html>
